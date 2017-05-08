@@ -1,0 +1,201 @@
+@charset "utf-8";
+
+img{
+	align-items: center;
+}
+
+.header {
+	background-image: url('/memes.jpg');
+	background-position: center center;
+	background-size: cover;
+	height: auto;
+	align-items: center;
+	width: auto;
+	padding: 10px;
+
+}
+.header img{
+	display: block;
+	position: relative;
+	margin: auto;
+}
+body, html {
+    height: 100%;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("/memes.jpg");
+
+    /* Full height */
+    height: 50%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center -200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax2 {
+	background-image: url("http://wallpapercave.com/wp/bttRtAW.jpg");
+
+}
+.parallax3
+{
+	background-image: url("http://coolwallpaper.website/wp-content/uploads/2017/04/Military-Wallpapers-Android-Apps-On-Google-Play-1.jpg");
+
+}
+.parallax4
+{
+
+	background-image: url("http://cdn.wallpapersafari.com/24/58/LHO1WR.jpg");
+}
+.parallax2, .parallax3, .parallax4
+{
+	height: 50%;
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 30px;
+
+
+}
+.body
+{
+	padding: 50px;
+	align-items: center;
+	background-color: black;
+	background-image: url("http://24.media.tumblr.com/tumblr_m1rn12n6qy1qh3v5mo1_500.jpg");
+	width: auto;
+}
+
+.body-text
+{
+	padding: 40px 0px;
+	margin: 40px 40px;
+	border: 2px solid white;
+}
+
+.body-text img{
+	display: block;
+	margin: auto;
+}
+
+.footer{
+	height: 100px;
+	background-color: darkblue;
+	width: auto;
+	background-image: url("http://www.shopsite.com/templates/cookbook/theme-images/congruence-stripes-blue.jpg");
+	background-position: center;
+}
+
+.nav{
+	display: block;
+}
+
+
+.border{
+	display: block;
+	width: auto;
+	margin: auto;
+	height: 40px;
+	background-color: #282a2d;
+}
+.parallax2 p, .parallax3 p, .parallax4 p{
+    background:rgba(0,0,0,0.7);
+		margin 30px;
+}
+ul {
+	display: block;
+	list-style-type: none;
+	margin:auto;
+	padding: 0;
+	overflow: hidden;
+	background-color: #122544;
+}
+h4{
+	font-size: 20px;
+	color: white;
+	font-style: normal;
+	font-family: serif;
+	padding: 7px;
+	margin: 0;
+	font-weight: lighter;
+}
+li{
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-family: sans-serif;
+}
+li:hover {
+	background-color: #244882;
+}
+
+h3
+{
+	color: white;
+	font-size: 30px;
+	text-align: center;
+}
+
+a{
+	color: white;
+	font-style: normal;
+}
+
+h1{
+	color: #FFF;
+	font-family: sans-serif;
+	font-size: 70px;
+	font-weight: 400;
+	line-height: 60px;
+	margin: 0px;
+	padding: 50px;
+	word-wrap: break-word;
+	z-index: 1;
+	text-align: center;
+}
+
+h2{
+	color: white;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 60px;
+	z-index: 1;
+	text-align: center;
+}
+
+p{
+	color: white;
+	font-family: sans-serif;
+font-size: 40px;
+	font-weight: 100;
+	padding: 10px;
+	margin: 20px;
+	line-height: auto;
+	text-align: center;
+}
+
+
+
+#header-text
+{
+	/*margin: 0 auto;
+	position: relative;
+	text-align: center;
+	top: 25%;
+	width: 60%;*/
+}
+
+#footer-text
+{
+	text-align: left;
+	font-size: 40px;
+	color: black;
+}
